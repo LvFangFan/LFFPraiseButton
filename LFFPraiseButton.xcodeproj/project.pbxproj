@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B628F3FB230506BF00F27A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628F3FA230506BF00F27A5D /* AppDelegate.swift */; };
+		B628F3FD230506BF00F27A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628F3FC230506BF00F27A5D /* ViewController.swift */; };
+		B628F400230506BF00F27A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628F3FE230506BF00F27A5D /* Main.storyboard */; };
+		B628F402230506C000F27A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B628F401230506C000F27A5D /* Assets.xcassets */; };
+		B628F405230506C000F27A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628F403230506C000F27A5D /* LaunchScreen.storyboard */; };
+		B628F410230506C000F27A5D /* LFFPraiseButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628F40F230506C000F27A5D /* LFFPraiseButtonTests.swift */; };
+		B628F41B230506C000F27A5D /* LFFPraiseButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628F41A230506C000F27A5D /* LFFPraiseButtonUITests.swift */; };
+		B628F429230506E700F27A5D /* LFFPraiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B628F428230506E700F27A5D /* LFFPraiseButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B628F40C230506C000F27A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B628F3EF230506BF00F27A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B628F3F6230506BF00F27A5D;
+			remoteInfo = LFFPraiseButton;
+		};
+		B628F417230506C000F27A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B628F3EF230506BF00F27A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B628F3F6230506BF00F27A5D;
+			remoteInfo = LFFPraiseButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B628F3F7230506BF00F27A5D /* LFFPraiseButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFFPraiseButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628F3FA230506BF00F27A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B628F3FC230506BF00F27A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B628F3FF230506BF00F27A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B628F401230506C000F27A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B628F404230506C000F27A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B628F406230506C000F27A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B628F40B230506C000F27A5D /* LFFPraiseButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFFPraiseButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628F40F230506C000F27A5D /* LFFPraiseButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFFPraiseButtonTests.swift; sourceTree = "<group>"; };
+		B628F411230506C000F27A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B628F416230506C000F27A5D /* LFFPraiseButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFFPraiseButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628F41A230506C000F27A5D /* LFFPraiseButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFFPraiseButtonUITests.swift; sourceTree = "<group>"; };
+		B628F41C230506C000F27A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B628F428230506E700F27A5D /* LFFPraiseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFFPraiseButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B628F3F4230506BF00F27A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F408230506C000F27A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F413230506C000F27A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B628F3EE230506BF00F27A5D = {
+			isa = PBXGroup;
+			children = (
+				B628F3F9230506BF00F27A5D /* LFFPraiseButton */,
+				B628F40E230506C000F27A5D /* LFFPraiseButtonTests */,
+				B628F419230506C000F27A5D /* LFFPraiseButtonUITests */,
+				B628F3F8230506BF00F27A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B628F3F8230506BF00F27A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B628F3F7230506BF00F27A5D /* LFFPraiseButton.app */,
+				B628F40B230506C000F27A5D /* LFFPraiseButtonTests.xctest */,
+				B628F416230506C000F27A5D /* LFFPraiseButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B628F3F9230506BF00F27A5D /* LFFPraiseButton */ = {
+			isa = PBXGroup;
+			children = (
+				B628F3FA230506BF00F27A5D /* AppDelegate.swift */,
+				B628F428230506E700F27A5D /* LFFPraiseButton.swift */,
+				B628F3FC230506BF00F27A5D /* ViewController.swift */,
+				B628F3FE230506BF00F27A5D /* Main.storyboard */,
+				B628F401230506C000F27A5D /* Assets.xcassets */,
+				B628F403230506C000F27A5D /* LaunchScreen.storyboard */,
+				B628F406230506C000F27A5D /* Info.plist */,
+			);
+			path = LFFPraiseButton;
+			sourceTree = "<group>";
+		};
+		B628F40E230506C000F27A5D /* LFFPraiseButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B628F40F230506C000F27A5D /* LFFPraiseButtonTests.swift */,
+				B628F411230506C000F27A5D /* Info.plist */,
+			);
+			path = LFFPraiseButtonTests;
+			sourceTree = "<group>";
+		};
+		B628F419230506C000F27A5D /* LFFPraiseButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B628F41A230506C000F27A5D /* LFFPraiseButtonUITests.swift */,
+				B628F41C230506C000F27A5D /* Info.plist */,
+			);
+			path = LFFPraiseButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B628F3F6230506BF00F27A5D /* LFFPraiseButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628F41F230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButton" */;
+			buildPhases = (
+				B628F3F3230506BF00F27A5D /* Sources */,
+				B628F3F4230506BF00F27A5D /* Frameworks */,
+				B628F3F5230506BF00F27A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFFPraiseButton;
+			productName = LFFPraiseButton;
+			productReference = B628F3F7230506BF00F27A5D /* LFFPraiseButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B628F40A230506C000F27A5D /* LFFPraiseButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628F422230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButtonTests" */;
+			buildPhases = (
+				B628F407230506C000F27A5D /* Sources */,
+				B628F408230506C000F27A5D /* Frameworks */,
+				B628F409230506C000F27A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B628F40D230506C000F27A5D /* PBXTargetDependency */,
+			);
+			name = LFFPraiseButtonTests;
+			productName = LFFPraiseButtonTests;
+			productReference = B628F40B230506C000F27A5D /* LFFPraiseButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B628F415230506C000F27A5D /* LFFPraiseButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628F425230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButtonUITests" */;
+			buildPhases = (
+				B628F412230506C000F27A5D /* Sources */,
+				B628F413230506C000F27A5D /* Frameworks */,
+				B628F414230506C000F27A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B628F418230506C000F27A5D /* PBXTargetDependency */,
+			);
+			name = LFFPraiseButtonUITests;
+			productName = LFFPraiseButtonUITests;
+			productReference = B628F416230506C000F27A5D /* LFFPraiseButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B628F3EF230506BF00F27A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = linphone;
+				TargetAttributes = {
+					B628F3F6230506BF00F27A5D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B628F40A230506C000F27A5D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B628F3F6230506BF00F27A5D;
+					};
+					B628F415230506C000F27A5D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B628F3F6230506BF00F27A5D;
+					};
+				};
+			};
+			buildConfigurationList = B628F3F2230506BF00F27A5D /* Build configuration list for PBXProject "LFFPraiseButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B628F3EE230506BF00F27A5D;
+			productRefGroup = B628F3F8230506BF00F27A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B628F3F6230506BF00F27A5D /* LFFPraiseButton */,
+				B628F40A230506C000F27A5D /* LFFPraiseButtonTests */,
+				B628F415230506C000F27A5D /* LFFPraiseButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B628F3F5230506BF00F27A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628F405230506C000F27A5D /* LaunchScreen.storyboard in Resources */,
+				B628F402230506C000F27A5D /* Assets.xcassets in Resources */,
+				B628F400230506BF00F27A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F409230506C000F27A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F414230506C000F27A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B628F3F3230506BF00F27A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628F429230506E700F27A5D /* LFFPraiseButton.swift in Sources */,
+				B628F3FD230506BF00F27A5D /* ViewController.swift in Sources */,
+				B628F3FB230506BF00F27A5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F407230506C000F27A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628F410230506C000F27A5D /* LFFPraiseButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B628F412230506C000F27A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628F41B230506C000F27A5D /* LFFPraiseButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B628F40D230506C000F27A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B628F3F6230506BF00F27A5D /* LFFPraiseButton */;
+			targetProxy = B628F40C230506C000F27A5D /* PBXContainerItemProxy */;
+		};
+		B628F418230506C000F27A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B628F3F6230506BF00F27A5D /* LFFPraiseButton */;
+			targetProxy = B628F417230506C000F27A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B628F3FE230506BF00F27A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628F3FF230506BF00F27A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B628F403230506C000F27A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628F404230506C000F27A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B628F41D230506C000F27A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B628F41E230506C000F27A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B628F420230506C000F27A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B628F421230506C000F27A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B628F423230506C000F27A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFFPraiseButton.app/LFFPraiseButton";
+			};
+			name = Debug;
+		};
+		B628F424230506C000F27A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFFPraiseButton.app/LFFPraiseButton";
+			};
+			name = Release;
+		};
+		B628F426230506C000F27A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFFPraiseButton;
+			};
+			name = Debug;
+		};
+		B628F427230506C000F27A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFFPraiseButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = linphone.LFFPraiseButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFFPraiseButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B628F3F2230506BF00F27A5D /* Build configuration list for PBXProject "LFFPraiseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628F41D230506C000F27A5D /* Debug */,
+				B628F41E230506C000F27A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628F41F230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628F420230506C000F27A5D /* Debug */,
+				B628F421230506C000F27A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628F422230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628F423230506C000F27A5D /* Debug */,
+				B628F424230506C000F27A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628F425230506C000F27A5D /* Build configuration list for PBXNativeTarget "LFFPraiseButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628F426230506C000F27A5D /* Debug */,
+				B628F427230506C000F27A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B628F3EF230506BF00F27A5D /* Project object */;
+}
